@@ -2,6 +2,11 @@
 
 Konfiguration für Raspis zum Decodieren von eingehenden Live-Signalen
 
+## Empfohlene Hardware
+
+-   Raspberry Pi 3B (oder neuer)
+-   BMD UpDownCross HD (für Reclocking / Signalwandlung)
+
 ## Anpassung für die Ausgabe
 
 Achtung: Wenn Dateien an den entsprechenden Orten nicht vorhanden sind, müssen sie angelegt werden.
