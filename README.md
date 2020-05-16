@@ -48,3 +48,14 @@ WantedBy=multi-user.target
 ```
 splash quiet plymouth.ignore-serial-consoles logo.nologo vt.global_cursor_default=0 fbcon=map:2
 ```
+
+/boot/config.txt durch die gleichnamige Datei in diesem Verzeichnis ersetzen.
+
+## Nutzung
+
+-   Automatischer Start des Diensts mit `sudo systemctl enable omxplayer.service`
+-   Dienst starten mit `sudo systemctl start omxplayer.service`
+-   Dienst neustarten mit `sudo systemctl restart omxplayer.service`
+
+Wenn kein Signal anliegt startet der Prozess andauernd neu. Ebenso falls der Prozess wegen irgendeinem Fehler während des Streams mal terminieren sollte. Nach wenigen Sekunden sollte es dann weiter gehen.
+Das der leere Hintergrund (blank) so leicht grau ist ist absicht damit man sieht dass das System ein Signal ausgibt bzw. ob der omxplayer selbst läuft.
