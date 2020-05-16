@@ -58,4 +58,4 @@ splash quiet plymouth.ignore-serial-consoles logo.nologo vt.global_cursor_defaul
 -   Dienst neustarten mit `sudo systemctl restart omxplayer.service`
 
 Wenn kein Signal anliegt startet der Prozess andauernd neu. Ebenso falls der Prozess wegen irgendeinem Fehler während des Streams mal terminieren sollte. Nach wenigen Sekunden sollte es dann weiter gehen.
-Das der leere Hintergrund (blank) so leicht grau ist ist absicht damit man sieht dass das System ein Signal ausgibt bzw. ob der omxplayer selbst läuft.
+Der leere Hintergrund (blank) ist absichtlich leicht grau, damit man sieht, dass das System ein Signal ausgibt bzw. ob der omxplayer selbst läuft.
