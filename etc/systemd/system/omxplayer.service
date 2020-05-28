@@ -1,0 +1,15 @@
+[Unit]
+Description=omxplayer Daemon
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+EnvironmentFile=/etc/omxplayer.conf
+ExecStart=/usr/bin/omxplayer $OMXPLAYER_OPT "$OMXPLAYER_URL"
+Type=simple
+Restart=always
+RestartSec=10
+StartLimitBurst=0
+
+[Install]
+WantedBy=multi-user.target
