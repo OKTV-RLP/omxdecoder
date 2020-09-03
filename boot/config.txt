@@ -26,8 +26,9 @@ hdmi_force_hotplug=1
 
 # uncomment to force a specific HDMI mode (this will force VGA)
 hdmi_group=1
-hdmi_mode=20
-hdmi_pixel_encoding=3
+#hdmi_mode=20
+hdmi_mode=31
+#hdmi_pixel_encoding=3
 hdmi_force_mode=1
 
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
