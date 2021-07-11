@@ -28,7 +28,7 @@ hdmi_force_hotplug=1
 hdmi_group=1
 #hdmi_mode=20
 hdmi_mode=31
-#hdmi_pixel_encoding=3
+#hdmi_pixel_encoding=1
 hdmi_force_mode=1
 
 # uncomment to force a HDMI mode rather than DVI. This can make audio work in
@@ -56,8 +56,8 @@ sdtv_aspect=3
 #dtoverlay=gpio-ir-tx,gpio_pin=18
 
 # Additional overlays and parameters are documented /boot/overlays/README
-dtoverlay=pi3-disable-wifi
-dtoverlay=pi3-disable-bt
+dtoverlay=disable-wifi
+dtoverlay=disable-bt
 
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
