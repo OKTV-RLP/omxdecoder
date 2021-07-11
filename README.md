@@ -11,8 +11,8 @@ Features:
 
 ## Empfohlene Hardware
 
--   Raspberry Pi 3B
--   BMD UpDownCross HD (für Reclocking / Signalwandlung)
+-   Raspberry Pi 3B oder 3B+
+-   Lynx Technik CHD 1812-1 HDMI to SDI Converter with Frame Synchronizer (für Reclocking / Signalwandlung)
 
 ## Systemvorbereitung
 
